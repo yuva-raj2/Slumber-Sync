@@ -70,6 +70,11 @@ export const Navbar: React.FC<NavbarProps> = ({
               {bluetoothState === 'TIER_A_HARDWARE_LOCKED' ? 'Tier A (Hardware ANC)' : 'Tier B (Speech Shield)'}
             </span>
           </div>
+
+          <div className="flex items-center space-x-1.5 px-2.5 py-1.5 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-xs text-emerald-400 font-medium">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span>Zero-Server Active (100% Free)</span>
+          </div>
         </div>
 
         {/* Navigation, User Manual & Dorm Pass */}
